@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    input {
+      caret-color: white;
+    }
+    input:-webkit-autofill {
+      box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+      -webkit-text-fill-color: white !important;
+      caret-color: white !important;
+    }
+    input:-webkit-autofill:focus {
+      box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+      -webkit-text-fill-color: white !important;
+      caret-color: white !important;
+    }
+  }
+  
