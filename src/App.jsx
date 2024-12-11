@@ -8,7 +8,6 @@ import Game from "./components/Game";
 
 const App = () => {
   return (
-    <Router>
       <div className="min-h-screen flex flex-col bg-[#0f172a] text-gray-200">
         {/* Navbar */}
         <Navbar />
@@ -28,7 +27,6 @@ const App = () => {
           <Footer />
         </footer>
       </div>
-    </Router>
   );
 };
 
